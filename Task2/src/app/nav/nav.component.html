@@ -4,8 +4,10 @@
 
   </div>
   <div class="Elements">
-<button style="background-color: white; border: none" type="button" ><img class="searchbtn" src="./assets/2.jpg" /></button>
-<button type="button" class="btn btn-light">Login</button>
-<button type="button" class="btn btn-danger">Sign Up</button>
+<button style="background-color: white; border: none" type="button" routerLink="/search" ><img class="searchbtn" src="./assets/2.jpg" /></button>
+<button style="background-color: white; border: none" type="button"  routerLink="/home" ><img class="homebtn" src="./assets/home-icon.png" /></button>
+<button type="button" class="btn btn-light" routerLink="/login">Login</button>
+<button type="button" class="btn btn-danger" routerLink="/SignUp">Sign Up</button>
   </div>
 </nav>
+<router-outlet></router-outlet>
